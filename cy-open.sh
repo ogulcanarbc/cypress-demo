@@ -21,7 +21,7 @@ DISPLAY=$IP:0
 docker run -it \
   -v $PWD:/e2e \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -w /e2e \
+  -w /cypressWork \
   -e DISPLAY \
   --entrypoint cypress \
   cypress/included:3.4.0 open --project .
