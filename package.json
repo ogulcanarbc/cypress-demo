@@ -1,0 +1,21 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "cypress for work es6",
+  "main": "index.js",
+  "scripts": {
+    "xtest": "npx cypress run --spec cypress/integration/examples/work.spec.js"
+  },
+  "author": "ogulcan arabaci",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^3.6.1",
+    "cypress-slack-reporter": "^0.5.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@cypress/fiddle": "^1.4.0",
+    "cypress-xpath": "^1.4.0"
+  }
+}
