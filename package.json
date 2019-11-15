@@ -4,7 +4,7 @@
   "description": "cypress for work es6",
   "main": "index.js",
   "scripts": {
-    "xtest": "npx cypress run --spec cypress/integration/examples/work.spec.js"
+    "test": "npx cypress run --spec cypress/integration/examples/trendyolLogin.spec.js"
   },
   "author": "ogulcan arabaci",
   "license": "ISC",
