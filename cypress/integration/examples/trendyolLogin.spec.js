@@ -1,8 +1,8 @@
-context('Work', () => {
+context('Trendyol Login', () => {
     beforeEach(() => {
         cy.visit('/')
     })
-    it('Giriş Yap', () => {
+    it('Login', () => {
         cy.SignIn('oglcnarbc@gmail.com','xyzt')
     })
 })
