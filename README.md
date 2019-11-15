@@ -1,12 +1,12 @@
 ### Docker and Cypress with run one spec
 
 
-#### Gerekli Kurulumlar
+#### Required Installations
 * Docker
 
-#### Test Nasıl Çallıştırılır
-* ./cy-run.sh <BrowserName> <testSpecName> komutu ile testininizi çalıştırabilirsiniz.
+#### How to Run a Test?
+* Allows you to manage your test with the command ./cy-run.sh <**BrowserName**> <**testSpecName**>
 
-Örnek: ./cy-run.sh chrome trendyolLogin.spec.js
+For Example: ./cy-run.sh chrome trendyolLogin.spec.js
 
 
