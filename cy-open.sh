@@ -19,9 +19,9 @@ DISPLAY=$IP:0
 #     in our case they are "--project ." to point globally installed Cypress
 #     at the current working directory /e2e inside the container
 docker run -it \
-  -v $PWD:/e2e \
+  -v $PWD:/cypressdemo \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -w /cypressWork \
+  -w /cypressdemo \
   -e DISPLAY \
   --entrypoint cypress \
   cypress/included:3.4.0 open --project .
