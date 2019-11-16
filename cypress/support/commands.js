@@ -5,6 +5,6 @@ Cypress.Commands.add("SignIn", (email, password) => {
     cy.get('.authentication-input.email').type(email)
     cy.get('.authentication-input.password').type(password)
     cy.get('a[id=loginSubmit]').click().then(()=>{
-        cy.get('.error-box').should("contain.text","Hatalı E-Posta / Şifre. Tekrar Deneyin.")
+        cy.get('.error-box').should("have.text","Hatalı E-Posta / Şifre. Tekrar Deneyin.")
     })
 })
