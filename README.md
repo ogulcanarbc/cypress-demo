@@ -9,4 +9,5 @@
 
 **For Example:** _./cy-run.sh chrome trendyolLogin.spec.js_
 
+**Not:** cypress supports two browsers, Chrome and Electron
 
