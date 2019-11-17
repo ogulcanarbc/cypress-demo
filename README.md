@@ -11,3 +11,5 @@
 
 **Not:** Cypress supports two browsers, Chrome and Electron
 
+**Recomanded Article:** `https://blog.logrocket.com/cypress-io-the-selenium-killer/`
+
