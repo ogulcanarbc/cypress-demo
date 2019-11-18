@@ -1,4 +1,3 @@
-import './commands'
 Cypress.Commands.add("SignIn", (email, password) => {
     cy.location("protocol").should("eq", "https:")
     cy.get('.icon.navigation-icon-user').click()
