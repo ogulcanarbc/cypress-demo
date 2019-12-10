@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@cypress/fiddle": "^1.4.0",
-    "cypress-xpath": "^1.4.0"
+    "cypress-xpath": "^1.4.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-cypress": "^2.7.0"
   }
 }
-
-
