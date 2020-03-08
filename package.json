@@ -4,20 +4,17 @@
   "description": "cypress for work es6",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec cypress/integration/examples/trendyolLogin.spec.js"
+    "cypress": "./node_modules/.bin/cypress run",
+    "cypress:trendyol": "CYPRESS_BASE_URL=https://trendyol.com cypress open",
+    "cypress:google": "CYPRESS_BASE_URL=https://www.google.com/ cypress open"
   },
   "author": "ogulcan arabaci",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.2.0",
-    "cypress": "^3.6.1",
-    "cypress-slack-reporter": "^0.5.0",
-    "moment": "^2.24.0"
-  },
-  "devDependencies": {
-    "@cypress/fiddle": "^1.4.0",
-    "cypress-xpath": "^1.4.0",
-    "eslint-plugin-chai-friendly": "^0.5.0",
-    "eslint-plugin-cypress": "^2.7.0"
+    "cypress": "4.0.0",
+    "fs-extra": "^8.1.0",
+    "mocha": "^7.1.0",
+    "mochawesome": "^5.0.0",
+    "path": "^0.12.7"
   }
 }
