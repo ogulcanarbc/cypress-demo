@@ -5,11 +5,7 @@
 * Docker
 
 #### How to Run a Test?
-* Allows you to manage your test with the command `./cy-run.sh <browserName> <specName>`
-
-**For Example:** _./cy-run.sh chrome trendyolLogin.spec.js_
-
-**Not:** Cypress supports two browsers, Chrome and Electron
+* Allows you to manage your test with the command `docker build -t cypress:latest .` and then run `docker run -it cypress:latest cypress`
 
 **Recomanded Article:** `https://blog.logrocket.com/cypress-io-the-selenium-killer/`
 
