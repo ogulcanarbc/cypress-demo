@@ -12,9 +12,8 @@ describe('Trendyol Login Test', () => {
 
         it('should be viewed incorrect login pop up message', function () {
             browserOn.getText(selectorMainPage.loginErrorBox).then(message => {
-                expect(message).to.include('GmailGörseller', 'Incorrect login message not seen!')
+                expect(message).to.include('Hatalı', 'Incorrect login message not seen!')
             });
-
         });
 
         after('info message', () => {
