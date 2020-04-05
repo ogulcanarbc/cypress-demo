@@ -9,5 +9,6 @@
 * Allows you to manage your test with the command `docker build -t cypress:latest .` 
   and then run `docker run -it cypress:latest cypress`
 
-**Recommended Article:** `https://blog.logrocket.com/cypress-io-the-selenium-killer/`
+**Recommended Article:** 
+* https://blog.logrocket.com/cypress-io-the-selenium-killer
 
